@@ -1,0 +1,10 @@
+# Security headers for Netlify or Cloudflare Pages. Put this file next to index.html.
+/*
+  Content-Security-Policy: default-src 'none'; script-src 'sha256-lgz8wQuIUIeVIAvPegz7g5H67uotR6jnooUj3zB3FQs='; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com; media-src 'self' data:; connect-src 'self' https://formsubmit.co; base-uri 'none'; form-action 'self'; object-src 'none'; manifest-src 'self'; upgrade-insecure-requests; frame-ancestors 'none'
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
